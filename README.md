@@ -1,4 +1,4 @@
-## Hallo und willkommen 
+## Hallo und Willkommen 
 
 Auf meinen Seiten will ich Euch die verschiedensten Projekte und Programmschnipsel vorstellen, welche sich im Laufe der Jahre so bei mir gesammelt haben. Vielleicht findet sich ja die eine oder andere Anregung für dein nächstes Projekt, oder aber du meinst eine bessere Lösung zu haben, dann erzähl mir davon. Ich lerne gerne dazu.
 
