@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Hallo und willkommen 
 
-You can use the [editor on GitHub](https://github.com/skillzworldDE/arduino/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Auf meinen Seiten will ich Euch die verschiedensten Projekte und Programmschnipsel vorstellen, welche sich im Laufe der Jahre so bei mir gesammelt haben. Vielleicht findet sich ja die eine oder andere Anregung für dein nächstes Projekt, oder aber du meinst eine bessere Lösung zu haben, dann erzähl mir davon. Ich lerne gerne dazu.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Hier geht es um den Arduino
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In diesem Repository geht es um den Arduino. Lange Zeit habe ich nichts von ihm wissen wollen (hielt ihn für Spielzeug), doch seit kurzem beschäftige ich mich nun doch damit. Durch ein "schnelles" Projekt für einen Freund bin ich dazu gekommen. 
 
-```markdown
-Syntax highlighted code block
+Nun bin ich noch lange kein Profi und arbeite (noch) mit der Arduino IDE und dem C-Syntax, also nicht zu viel erwarten. :)
 
-# Header 1
-## Header 2
-### Header 3
+### Alles für ein Projekt
 
-- Bulleted
-- List
+Zur Zeit arbeit ich mich ja wie gesagt noch ein. Da ich gerne wandere sollte mein erstes Projekt ein nützlicher Helfer für diesen Zeitvertreib werden. Dank ebay fanden sich schnell alle Komponenten. Alles wurde verlötet und in ein kleines Gehäuse gepackt und will nun programmiert werden....
 
-1. Numbered
-2. List
+Name des Projektes: "Hikers Helper" (Wander-Helfer)
+Was hat er? Was kann er?
+- Handgerät mir Li-Ion Akku, Laderegler und StepUp Wandler
+- auf Basis des Arduino Nano
+- 1,8'' Display + 4 Tasten als Userinterface
+- Erfassung und Speicherung von:
+  1. Position (GPS)
+  2. Temperatur und Luftdruck (BMP180)
+  3. Höhe (Barometrisch + GPS)
+  4. Kompass (Gyroskop und Magnetisch) mit Tilt-Kompensation
+- Speichermedium SD-Card
+- Datenübertragung via Bluetooth zu optionaler Android-App
+- RTC (DS1307)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+Die in diesem Repository gesammelten Code-Schnipsel dienen alle der Erfüllung einer Teilaufgabe aus diesem Projekt. So scheint manches Codefragment gelegentlich sinnlos zu sein, da es kompfortablere Bibliotheken gibt die die selbe Aufgabe erledigen. Aber im Gesamtprojekt gab es immer wieder Gründe warum ich es anders gemacht habe:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Speicherplatzmangel (manche Bibliotheken tragen einfach zu dick auf)
+- Timing (Geschwindigkeit und Interrupts sollten optimiert werden)
+- Pinout (Manche Bibliotheken setzte bestimmte Pins voraus, das war oft nicht machbar)
+- persönliche Ansprüche
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skillzworldDE/arduino/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Schaut euch gerne etwas um wenn ihr wollt....
